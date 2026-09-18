@@ -1,0 +1,669 @@
+:root {
+    --primary: #087443;
+    --primary-dark: #04552f;
+    --secondary: #f5b800;
+    --dark: #10231b;
+    --text: #52635b;
+    --light: #f5f8f6;
+    --white: #ffffff;
+    --border: #e3eae6;
+    --shadow: 0 15px 45px rgba(16, 35, 27, 0.09);
+}
+
+
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--light);
+    color: var(--text);
+}
+/* =========================
+NEW ABOUT PAGE 
+============================ */
+.about-page p {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.7;
+}
+.about-page h3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.about-page h3 + p {
+    margin-bottom: 2rem;
+}
+.timeline {
+    margin-top: 1.5rem;
+}
+.timeline-item {
+    margin-bottom: 2rem;
+} 
+.timeline-item h4 {
+    font-size: 1.3rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+.timeline-item p {
+    font-size: 1rem;
+    color: var(--text);
+    line-height: 1.7;
+    margin: 0;
+}
+.about-page > p:last-child {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.about-page {
+    padding: 4rem 1.5rem;
+}
+.about-header {
+    border-bottom: 2px solid var(--border);
+}
+.about-page ul {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about-page li {
+    margin-bottom: 0.75rem;
+}
+.about-header {
+    background-color: var(--dark);
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.about-header h1 {
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.about-header p {
+    margin-bottom: 1rem;
+}
+.main p {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+/* =========================
+NEW EARLY-LIFE PAGE
+============================ */
+.early-life-page {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.7;
+}
+.early-life-page h3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.early-life-page h3 + p {
+    margin-bottom: 2rem;
+}
+.early-life-page {
+    padding: 4rem 1.5rem;
+}
+.early-life header {
+    border-bottom: 2px solid var(--border);
+}
+.early-life-header {
+    background-color: var(--dark);
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.early-life-header h1 {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.early-life-header p {
+    margin-bottom: 1rem;
+}
+/* =========================
+NEW STRUGGLE PAGE
+============================ */
+.struggle-page p {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.7;
+}
+.struggle-page h3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.struggle-page h3 + p {
+    margin-bottom: 2rem;
+}
+.struggle-page {
+    padding: 4rem 1.5rem;
+}
+.struggle-header {
+    border-bottom: 2px solid var(--border);
+    background-color: var(--dark);
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.struggle-header h1 {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.struggle-header p {
+    margin-bottom: 1rem;
+}
+/* =========================
+NEW PRISON PAGE 
+============================ */
+.prison-page p {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.7;
+}
+.prison-page h3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.prison-page h3 + p {
+    margin-bottom: 2rem;
+}
+.prison-page {
+    padding: 4rem 1.5rem;
+}
+.prison-header {
+    border-bottom: 2px solid var(--border);
+    background-color: var(--dark);
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.prison-header h1 {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.prison-header p {
+    margin-bottom: 1rem;
+}
+/* =========================
+NEW FREEDOM PAGE
+============================ */
+.freedom-page p {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    line-height: 1.7;
+}
+.freedom-page h3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.freedom-page h3 + p {
+    margin-bottom: 2rem;
+}
+.freedom-page {
+    padding: 4rem 1.5rem;
+}
+.freedom-header {
+    border-bottom: 2px solid var(--border);
+    background-color: var(--dark);
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.freedom-header h1 {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.freedom-header p {
+    margin-bottom: 1rem;
+}
+/* =====================
+NEW PRESIDENCY PAGE
+======================== */
+
+.presidency-page p {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    line-height: 1.7;
+}
+.presidency-page h3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.presidency-page h3 + p {
+    margin-bottom: 2rem;
+}
+.presidency-page {
+    padding: 4rem 1.5rem;
+}
+.presidency-header {
+    border-bottom-color: 2px var solid(--border);
+    background-color: var(--dark);
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.presidency-header h1 {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.presidency-header p {
+    margin-bottom: 1rem;
+}
+/* ========================
+NEW LEGACY PAGE
+========================== */
+.legacy-page p {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    line-height: 1.7;
+}
+.legacy-page h3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.legacy-page h3 + p {
+    margin-bottom: 2rem;
+}
+.legacy-page {
+    padding: 4rem 1rem;
+}
+.legacy-header {
+    border-bottom-color: 2px var solid(--border);
+    background-color: var(--dark);
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.legacy-header h1 {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.legacy-header p {
+    margin-bottom: 1rem;
+}
+/* =========================
+   NAVBAR
+========================= */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 1rem 1.5rem;
+    background-color: var(--white);
+    position: relative;
+}
+
+
+/* Website heading */
+
+nav h1 {
+    color: var(--dark);
+    white-space: nowrap;
+}
+
+
+/* Navigation menu */
+
+#nav-menu {
+    position: absolute;
+    width: 200px;
+    top: calc(100% + 8px);
+    right: 1.5rem;
+    display: none;
+    gap: 0.25rem;
+    align-items: stretch;
+    flex-direction: column;
+    list-style: none;
+    background-color: var(--dark);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+#nav-menu.active {
+    display: flex;
+}
+#nav-menu a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    display: block;
+    width: 100%;
+}
+
+
+#nav-menu a:hover {
+    color: blue;
+    background-color: #f7d774;
+    border-radius: 0.5rem;
+}
+
+
+/* =========================
+   MENU TOGGLE
+========================= */
+
+#menu-toggle {
+    display: block;
+    border: none;
+    background: none;
+    color: var(--dark);
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: #f0f3f1;
+    border-radius: 0.5rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    flex-shrink: 0;
+}
+
+
+#menu-toggle:hover {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+
+/* =========================
+   HOME
+========================= */
+
+#home {
+    text-align: center;
+    padding: 4rem 1rem;
+    min-height: 70vh;
+    border-bottom: 2px solid var(--border);
+    background: linear-gradient(135deg, #102a43, #315d7d);
+}
+#home h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+#home p {
+    font-size: 1.2rem;
+    color: var(--white);
+    margin-bottom: 1.5rem;
+}
+
+/* Explore button */
+
+#explore-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #f5b800;
+    color: #102a43;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+}
+
+
+#explore-btn:hover {
+    background-color: #f5b800;
+    transition: background-color 0.3s ease;
+}
+.hero-image {
+    width: 100%;
+    max-width: 450px;
+    margin: 2rem auto 0;
+}
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+/* =========================
+   ABOUT
+========================= */
+
+#about {
+    padding: 4rem 1rem;
+}
+
+
+#about h2 {
+    font-size: 2rem;
+    color: var(--dark);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+#about p {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    margin: 0 auto -5rem;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   EARLY LIFE
+========================= */
+
+#early-life {
+    padding: 4rem 1rem;
+}
+
+
+#early-life h2 {
+    font-size: 2rem;
+    color: var(--dark);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+#early-life p {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    margin: 0 auto -5rem;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   STRUGGLE
+========================= */
+
+#struggle {
+    padding: 4rem 1rem;
+}
+#struggle h2 {
+    font-size: 2rem;
+    color: var(--dark);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+#struggle p {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    margin: 0 auto -5rem;
+}
+/* =====================
+PRISON
+==================== */
+#prison {
+    padding: 4rem 1rem;
+}
+#prison h2 {
+    font-size: 2rem;
+    color: var(--dark);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+#prison p {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    margin: 0 auto -5rem;
+    line-height: 1.7;
+}
+/* =======================
+FREEDOM
+====================== */
+#freedom {
+    padding: 4rem 1rem;
+}
+#freedom h2 {
+    font-size: 2rem;
+    color: var(--dark);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+#freedom p {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    margin: 0 auto -5rem;
+    line-height: 1.7;
+}
+/* ========================
+PRESIDENCY
+============================ */
+#presidency {
+    padding: 4rem 1rem;
+}
+#presidency h2 {
+    font-size: 2rem;
+    color: var(--dark);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+#presidency p {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    margin: 0 auto -5rem;
+    line-height: 1.7;
+}
+/* =========================
+LEGACY
+=========================== */
+#legacy {
+    padding: 4rem 1rem;
+}
+#legacy h2 {
+    font-size: 2rem;
+    color: var(--dark);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+#legacy p {
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 700px;
+    margin: 0 auto -4rem;
+    line-height: 1.7;
+}
+
+/* ========================
+FOOTER
+=========================== */
+footer {
+    background: linear-gradient(135deg, #102a43, #315d7d);
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #e8eee9;
+}
+/* =========================
+   MOBILE NAVIGATION
+========================= */
+
+@media (max-width: 600px) {
+    nav h1 {
+    font-size: 1.2rem;
+    white-space: normal;
+}
+
+    #menu-toggle {
+        display: block;
+    }
+
+
+    #nav-menu {
+        display: none;
+    }
+
+
+    #nav-menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        gap: 0.25rem;
+        background-color: var(--dark);
+        padding: 1rem;
+        position: absolute;
+        top: calc(100% + 8px);
+        right: 1.5rem;
+    }
+
+
+    #nav-menu.active a {
+        color: #f5f5f5;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    #nav-menu.active li {
+        width: 100%;
+        text-align: center;
+    }
+}
